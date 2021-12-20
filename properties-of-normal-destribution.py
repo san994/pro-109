@@ -2,7 +2,7 @@ import pandas as pd
 import statistics
 import csv
 
-df = pd.read_csv('pro 109/StudentsPerformance.csv')
+df = pd.read_csv('StudentsPerformance.csv')
 
 total_score = df['writing score']+df['math score']+df['reading score'].tolist()
 
